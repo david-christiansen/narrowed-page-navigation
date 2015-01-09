@@ -1,0 +1,15 @@
+* Narrowed Page Navigation
+
+=narrowed-page-navigation-mode= is a minor mode that provides
+keybindings for showing only one page at a time. This is intended
+to be useful primarily for presentations and live coding, where it
+might be convenient to avoid distractions for the audience.
+
+This is accomplished using Emacs's standard narrowing features. After
+invoking =narrowed-page-navigation-mode=, begin narrowing to the
+current page using =C-x n p=. Then, the default keybindings are:
+ + =S-Up= :: Go to previous page
+ + =S-Down= :: Go to next page
+
+Remember that you can show the whole buffer again with =M-x widen= or
+=C-x n w=.
